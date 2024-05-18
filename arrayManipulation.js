@@ -12,3 +12,24 @@ function processArray(numbers) {
 }
 
 // console.log(processArray([2, 5, 1, 14, 12]));
+
+
+
+function formatArrayStrings(strings, processedNumbers) {
+    const newFormattedStrings = [];
+    for (let i = 0; i < strings.length; i++) {
+        const str = strings[i];
+        const num = processedNumbers[i];
+
+        if (num % 2 === 0) {
+            newFormattedStrings.push(str.toUpperCase());
+        } else {
+            newFormattedStrings.push(str.toLowerCase());
+        }
+        
+    }
+
+    return newFormattedStrings;
+}
+
+// console.log(formatArrayStrings("Hello", [1, 2, 4, 5, 7]));
