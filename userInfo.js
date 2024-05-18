@@ -3,8 +3,8 @@ function createUserProfiles(names, newNames) {
 
     for (let i = 0; i < names.length; i++) {
         const userProile = {
-            actualName : names[i],
-            newName : newNames[i],
+            originalName : names[i],
+            modifiedName : newNames[i],
             id : i + 1,
         };
 
