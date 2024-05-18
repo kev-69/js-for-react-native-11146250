@@ -19,3 +19,11 @@ Name: Bismark Obuobi
 3. I initialise str to the string's index and num to the array's index.
 4. Then I check using an if statement to see if the number is even and if it is, I convert it to uppercase letter and push the corresponding string to the formatted string to the array. Else if it is not, then it is odd, I convert it to lower case and push it into the array.
 5. Lastly, return the formatter strings array.
+
+
+# TASK 3
+1. Created a new file "userInfo.js". I wrote a function which takes 2 parameters.
+2. Initialise an empty array called userProfiles.
+3. Loop through the names and then create a user profile object for each name with the original name and modified name with id (increasing for new profile) as key value pairs.
+4. Push the user profile object into the user profiles arrays.
+5. Return the user profiles array.
